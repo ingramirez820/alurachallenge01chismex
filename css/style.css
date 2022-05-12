@@ -1,0 +1,84 @@
+
+.titulo {
+  font-family: "Sofia",sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(31, 198, 204);
+  position: relative;
+
+}
+.title{
+  color: rgb(190, 49, 208);
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  background-color: rgb(203, 212, 208);
+}
+iframe {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.gifs{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main {
+  padding: 20px;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.box {
+  padding: 10px 10px;
+  margin: 10px 5px 10px 5px;
+  background-color: white;
+  border-radius: 0.5em;
+  width: 40vw;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: transparent;
+
+}
+
+.btn {
+  border: 0;
+  color: white;
+  background-color: rgb(31, 198, 204);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  font-family: "Audiowide", sans-serif;
+}
+.btn:active{
+  transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -o-transform: translateY(2px);
+}
+.btn-cpy{
+  display:block;
+  margin:10px auto;
+}
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+}
