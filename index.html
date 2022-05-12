@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubre el secreto</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+
+  
+</head>
+<body>
+  <h1 class="titulo">Challenge #1</h1>
+  
+
+  <main class="main">
+    <section class="form box">
+      
+        <label for="input-texto">
+        <h3 class="title">Usa solo letras minúsculas, sin acento</h3>
+      </label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button"  onclick="encriptar()" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="button" onclick="desencriptar()" value="Desencriptar" id="btn-desencriptar">
+    </section>
+  
+    <section class="msg box">
+      <h3 class="title">Texto encriptado:</h3>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn btn-cpy" onclick="cpy()" type="submit" value="copiar" id="btn-copy" readonly>
+    </section>
+    
+  </main>
+  <h3 class="title" style="color:rgb(31, 78, 180);">Disfruta lo que haces!!</h3>
+  <div class="gifs">
+    
+    <iframe class="gifhijo" src="https://giphy.com/embed/MdA16VIoXKKxNE8Stk" frameBorder="0" allowFullScreen></iframe>
+    <iframe class="gifhijo" src="https://giphy.com/embed/26tn33aiTi1jkl6H6" frameBorder="0" allowFullScreen></iframe>
+    <iframe class="gifhijo" src="https://giphy.com/embed/xT9IgzoKnwFNmISR8I" frameBorder="0" allowFullScreen></iframe>
+    <iframe class="gifhijo" src="https://giphy.com/embed/p4NLw3I4U0idi" frameBorder="0" allowFullScreen></iframe>
+ </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
